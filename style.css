@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&family=Lilita+One&family=Red+Hat+Display:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&family=Lilita+One&family=Montserrat:wght@300;400&family=Red+Hat+Display:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navContainer {
+    background-color: #44b2ed;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.navBar1 {
+    background-color: #202a33;
+    height: 10vh;
+    width: 90%;
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navBar2 {
+    background-color: #eeebf1;
+    height: 5vh;
+    width: 90%;
+
+}
+
+.navBar1 p {
+    color: #e8f3f5;
+    font-size: 40px;
+    margin-left: 5px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.navLinks {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    width: 50%;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.navLinks li {
+    list-style: none;
+}
+
+
+
+.logo {
+    color: white;
+    display: flex;
+    width: 10%;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.logo li {
+    list-style: none;
+}
